@@ -1,0 +1,17 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  /* FONTS FOR PROJECT ======= font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+  
+  body {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  header {
+    font-family: 'Montserrat', sans-serif;
+  }
