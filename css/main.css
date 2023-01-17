@@ -106,26 +106,33 @@ html {
     }
 
     .work-skills {
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     } 
     .work-tools {
-      margin-top: 15px;
+      margin-top: 5px;
     }
 
-    .work-link-wrapper {
-      width: 70%;
+    #work p {
+      text-align: left;
+      width: 100%;
+    }
+
+    .work-content {
       display: flex;
       justify-content: center;
-      margin: 40px 0 20px 50px;
+      flex-direction: column;
+      align-items: center;
     }
+    
 
     .work-link {
+      display: inline-block;
       background-color: #E9B14C;
       border-radius: 30px;
       font-size: 1.125em;
       padding: .75em 3.75em;
       text-transform: uppercase;
-      
+      margin: 40px 0 60px 0;
     }
 
     #skills {
@@ -138,7 +145,7 @@ html {
 
     #skills h3 {
       font-size: 2em;
-      margin: 40px 0 20px 0;
+      margin: 0 0 20px 0;
     }
 
     #skills h4 {
