@@ -1,8 +1,3 @@
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-  }
 
     /* FONTS FOR PROJECT ======= font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif; */
@@ -14,8 +9,8 @@ html {
     color: #EEEFDA;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    line-height: 1.4;
     text-align: left;
-    margin: 0 25px;
   }
 
   p {
@@ -27,7 +22,7 @@ html {
   }
 
    a {
-    color: #EEEFDA;
+    color: #222;
     text-decoration: none;
   } 
 
@@ -36,23 +31,23 @@ html {
     /* margin: 50px 0; */
   }
 
-  #work img { 
+  img { 
+    height: auto;
     width: 100%;
-    margin: 20px 0;
   }
    
   figure {
-    margin: 0;
+    margin: 20px 0;
   }
 
 
     /* general styles end */
 
     header {
-      display: flex;
-      font-family: 'Montserrat', sans-serif;
+      background-color: #B4C7D9;
+      color: #222;
       text-align: center;
-      
+      padding: 30px 25px;
     }
 
     nav #contact-link {
@@ -67,18 +62,27 @@ html {
       display: flex;
       justify-content: space-around;
       padding: 0;
-      margin: 30px 0;
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3, 
+    h4,
+    h5 {
+      font-family: 'Montserrat', sans-serif;
     }
 
     h1 {
-      display: flex;
-      /* justify-content: space-around; */
-      margin: 30px 0;
-      /* text-align: center; */
+      margin: 60px 0 30px 0;
     }
 
     h2 {
       margin: 0 0 30px 0;
+    }
+
+    h3 {
+      font-size: 2em;
     }
 
     h3, h4 {
@@ -87,14 +91,25 @@ html {
       text-align: center;
     }
 
+    h4 {
+      font-size: 1.25em;
+    }
+
+    h5 {
+      font-size: 1.125em;
+    }
+
+    #work {
+      padding: 80px 25px 40px 25px;
+    }
+
     #work h4 {
       margin: 0;
       font-size: 1.25em;
     }
 
     .work-header {
-      margin: 80px 0 0 0;
-      font-size: 2em;
+      margin: 0;
     }
 
     .work-description {
@@ -105,9 +120,6 @@ html {
       font-weight: 700;
     }
 
-    .work-skills {
-      margin-bottom: 5px;
-    } 
     .work-tools {
       margin-top: 5px;
     }
@@ -129,45 +141,45 @@ html {
       display: inline-block;
       background-color: #E9B14C;
       border-radius: 30px;
+      color: #222;
       font-size: 1.125em;
-      padding: .75em 3.75em;
+      padding: .75rem 3.75rem;
       text-transform: uppercase;
-      margin: 40px 0 60px 0;
+      margin: 40px 0 20px 0;
     }
 
     #skills {
-     text-align: center;
-    }
-
-    #skills .content-wrapper {
-      margin-bottom: 80px;
+      background-color: #B4C7D9;
+      color: #222;
+      padding: 0 25px 60px 25px;
+      text-align: center;
     }
 
     #skills h3 {
       font-size: 2em;
-      margin: 0 0 20px 0;
+      margin: 0;
     }
 
     #skills h4 {
       font-size: 1.25em;
-      margin: 20px 0 0 0;
+      margin: 40px 0 20px 0;
     }
 
-    .language {
-      padding: 20px 0;
+    .language, .tool {
+      background-color: #E9B14C;
+      color: #222;
+      font-size: 1.125em;
+      padding: 15px 0;
+      margin: 20px 0;
+      text-transform: uppercase;
     }
 
-    .tool {
-      padding: 20px 0;
+    #about {
+      padding: 80px 25px;
     }
 
-    .about-content-wrapper {
-      margin: 80px 0;
-    }
-
-    #developer-image {
+    #about figure {
       margin: 0 0 40px 0;
-      width: 100%;
     }
 
     #about h3 {
@@ -183,40 +195,39 @@ html {
     }
 
     #contact {
+      background-color: #B4C7D9;
+      color: #222;
+      padding: 80px 25px 60px 25px;
       text-align: center;
     }
 
-    #contact .content-wrapper {
-      margin: 80px 0 60px 0;
-    }
-
     #contact h3 {
-      margin: 0 0 30px;
+      margin: 0 0 60px 0;
     }
 
     .contact-info {
-      margin-bottom: 30px;
+      margin-bottom: 60px;
     }
 
     .contact-title {
-      margin: 30px 0;
+      margin: 0 0 30px 0;
     }
 
     .social-icons {
       display: flex;
       justify-content: center;
       gap: 0 20px;
-      /* justify-content: space-evenly; */
+      font-size: 1.875rem;
       padding: 0;
-      margin: 30px 0;
+      margin: 0;
 
     }
 
     .contact-location {
-      margin: 30px 0;
+      margin: 60px 0 30px 0;
     }
 
     .copyright {
-      margin-bottom: 60px;
+      margin-top: 60px;
     }
 
