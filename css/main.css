@@ -26,10 +26,10 @@ html {
     list-style-type: none;
   }
 
-  a {
+   a {
     color: #EEEFDA;
     text-decoration: none;
-  }
+  } 
 
   .content-wrapper {
     width: 100%;
@@ -55,10 +55,14 @@ html {
       
     }
 
-    /* header nav {
-      
-    } */
+    nav #contact-link {
+      background-color: #E9B14C;
+      border-radius: 30px;
+      color: #222;
+      padding: 2px 10px;
+    }
 
+   
     header nav ul {
       display: flex;
       justify-content: space-around;
@@ -85,6 +89,7 @@ html {
 
     #work h4 {
       margin: 0;
+      font-size: 1.25em;
     }
 
     .work-header {
@@ -107,11 +112,20 @@ html {
       margin-top: 15px;
     }
 
-    .work-link {
+    .work-link-wrapper {
+      width: 70%;
       display: flex;
       justify-content: center;
-      margin: 40px 0 20px 0;
-      /* LIVE PAGE BORDER GOES HERE */
+      margin: 40px 0 20px 50px;
+    }
+
+    .work-link {
+      background-color: #E9B14C;
+      border-radius: 30px;
+      font-size: 1.125em;
+      padding: .75em 3.75em;
+      text-transform: uppercase;
+      
     }
 
     #skills {
@@ -128,7 +142,7 @@ html {
     }
 
     #skills h4 {
-      font-size: 1.3em;
+      font-size: 1.25em;
       margin: 20px 0 0 0;
     }
 
