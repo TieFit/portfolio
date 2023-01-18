@@ -13,6 +13,26 @@
     text-align: left;
   }
 
+  h1,
+  h2,
+  h3, 
+  h4,
+  h5 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  h5 {
+    font-size: 1.125em;
+  }
+
   p {
     margin: 0;
   }
@@ -21,213 +41,183 @@
     list-style-type: none;
   }
 
+  figure {
+    margin: 20px 0;
+  }
+
    a {
     color: #222;
     text-decoration: none;
   } 
 
-  .content-wrapper {
-    width: 100%;
-    /* margin: 50px 0; */
-  }
-
   img { 
     height: auto;
     width: 100%;
   }
-   
-  figure {
-    margin: 20px 0;
-  }
 
+  span {
+    font-weight: 700;
+  }
 
     /* general styles end */
 
-    header {
-      background-color: #B4C7D9;
-      color: #222;
-      text-align: center;
-      padding: 30px 25px;
-    }
+  header {
+    background-color: #B4C7D9;
+    color: #222;
+    text-align: center;
+    padding: 30px 25px;
+  }
 
-    nav #contact-link {
-      background-color: #E9B14C;
-      border-radius: 30px;
-      color: #222;
-      padding: 2px 10px;
-    }
+  nav #contact-link {
+    background-color: #E9B14C;
+    border-radius: 30px;
+    color: #222;
+    padding: 2px 10px;
+  }
 
    
-    header nav ul {
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
-      margin: 0;
-    }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
 
-    h1,
-    h2,
-    h3, 
-    h4,
-    h5 {
-      font-family: 'Montserrat', sans-serif;
-    }
+  header h1 {
+    margin: 60px 0 30px 0;
+  }
 
-    h1 {
-      margin: 60px 0 30px 0;
-    }
+  header h2 {
+    margin: 0 0 30px 0;
+  }
 
-    h2 {
-      margin: 0 0 30px 0;
-    }
+  h3, h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 
-    h3 {
-      font-size: 2em;
-    }
+  #work {
+    padding: 80px 25px 40px 25px;
+  }
 
-    h3, h4 {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
+  #work h4 {
+    margin: 0;
+  }
 
-    h4 {
-      font-size: 1.25em;
-    }
+  .work-header {
+    margin: 0;
+  }
 
-    h5 {
-      font-size: 1.125em;
-    }
+  .work-description {
+    margin: 40px 0 30px 0;
+  }
 
-    #work {
-      padding: 80px 25px 40px 25px;
-    }
+  .work-tools {
+    margin-top: 5px;
+  }
 
-    #work h4 {
-      margin: 0;
-      font-size: 1.25em;
-    }
+  #work p {
+    width: 100%;
+  }
 
-    .work-header {
-      margin: 0;
-    }
-
-    .work-description {
-      margin: 40px 0 30px 0;
-    }
-
-     span {
-      font-weight: 700;
-    }
-
-    .work-tools {
-      margin-top: 5px;
-    }
-
-    #work p {
-      text-align: left;
-      width: 100%;
-    }
-
-    .work-content {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-    }
+  .work-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
     
 
-    .work-link {
-      display: inline-block;
-      background-color: #E9B14C;
-      border-radius: 30px;
-      color: #222;
-      font-size: 1.125em;
-      padding: .75rem 3.75rem;
-      text-transform: uppercase;
-      margin: 40px 0 20px 0;
-    }
+  .work-link {
+    display: inline-block;
+    background-color: #E9B14C;
+    border-radius: 30px;
+    color: #222;
+    font-size: 1.125em;
+    padding: .75rem 3.75rem;
+    text-transform: uppercase;
+    margin: 40px 0 20px 0;
+  }
 
-    #skills {
-      background-color: #B4C7D9;
-      color: #222;
-      padding: 0 25px 60px 25px;
-      text-align: center;
-    }
+  #skills {
+    background-color: #B4C7D9;
+    color: #222;
+    padding: 0 25px 60px 25px;
+    text-align: center;
+  }
 
-    #skills h3 {
-      font-size: 2em;
-      margin: 0;
-    }
+  #skills h3 {
+    margin: 0;
+  }
 
-    #skills h4 {
-      font-size: 1.25em;
-      margin: 40px 0 20px 0;
-    }
+  #skills h4 {
+    margin: 40px 0 20px 0;
+  }
 
-    .language, .tool {
-      background-color: #E9B14C;
-      color: #222;
-      font-size: 1.125em;
-      padding: 15px 0;
-      margin: 20px 0;
-      text-transform: uppercase;
-    }
+  .language,
+  .tool {
+    background-color: #E9B14C;
+    color: #222;
+    font-size: 1.125em;
+    padding: 15px 0;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
 
-    #about {
-      padding: 80px 25px;
-    }
+  #about {
+    padding: 80px 25px;
+  }
 
-    #about figure {
-      margin: 0 0 40px 0;
-    }
+  #about figure {
+    margin: 0 0 40px 0;
+  }
 
-    #about h3 {
-      margin: 0 0 60px 0;
-    }
+  #about h3 {
+    margin: 0 0 60px 0;
+  }
 
-    #about h4 {
-      margin: 0 0 40px;
-    }
+  #about h4 {
+    margin: 0 0 40px;
+  }
 
-    .about-text {
-      margin: 0 0 25px;
-    }
+  .about-text {
+    margin: 0 0 25px;
+  }
 
-    #contact {
-      background-color: #B4C7D9;
-      color: #222;
-      padding: 80px 25px 60px 25px;
-      text-align: center;
-    }
+  #contact {
+    background-color: #B4C7D9;
+    color: #222;
+    padding: 80px 25px 60px 25px;
+    text-align: center;
+  }
 
-    #contact h3 {
-      margin: 0 0 60px 0;
-    }
+  #contact h3 {
+    margin: 0 0 60px 0;
+  }
 
-    .contact-info {
-      margin-bottom: 60px;
-    }
+  .contact-info {
+    margin-bottom: 60px;
+  }
 
-    .contact-title {
-      margin: 0 0 30px 0;
-    }
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
 
-    .social-icons {
-      display: flex;
-      justify-content: center;
-      gap: 0 20px;
-      font-size: 1.875rem;
-      padding: 0;
-      margin: 0;
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    font-size: 1.875rem;
+    padding: 0;
+    margin: 0;
+  }
 
-    }
+  .contact-location {
+    margin: 60px 0 30px 0;
+  }
 
-    .contact-location {
-      margin: 60px 0 30px 0;
-    }
-
-    .copyright {
-      margin-top: 60px;
-    }
+  .copyright {
+    margin-top: 60px;
+  }
 
