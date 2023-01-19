@@ -55,7 +55,7 @@
    a {
     color: #222;
     text-decoration: none;
-  } 
+  }
 
   img { 
     height: auto;
@@ -87,9 +87,11 @@
    
   header nav ul {
     display: flex;
+    font-weight: bold;
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    text-transform: uppercase;
   }
 
   header h1 {
@@ -195,6 +197,10 @@
     margin: 0 0 40px 0;
   }
 
+  #developer-image {
+    height: 425px;
+  }
+
   #about h3 {
     margin: 0 0 60px 0;
   }
@@ -280,6 +286,17 @@
 
     #work {
       padding: 120px 90px 40px 90px;
+    }
+
+    .work-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-flow: row wrap;
+    }
+
+    .work-content {
+      width: 45%;
     }
 
     figure {
