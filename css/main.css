@@ -13,6 +13,10 @@
     text-align: left;
   }
 
+  h1 {
+    font-weight: bold;
+  }
+
   h1,
   h2,
   h3, 
@@ -23,14 +27,17 @@
 
   h3 {
     font-size: 2em;
+    font-weight: bold;
   }
 
   h4 {
     font-size: 1.25em;
+    font-weight: bold;
   }
 
   h5 {
     font-size: 1.125em;
+    font-weight: bold;
   }
 
   p {
@@ -56,10 +63,12 @@
   }
 
   span {
-    font-weight: 700;
+    font-weight: bold;
   }
 
     /* general styles end */
+
+    /* header starts */
 
   header {
     background-color: #B4C7D9;
@@ -91,14 +100,19 @@
     margin: 0 0 30px 0;
   }
 
+  /* header ends */
+
+  /* work section starts */
+
+  
+  #work {
+    padding: 80px 25px 40px 25px;
+  }
+
   h3, h4 {
     display: flex;
     justify-content: center;
     text-align: center;
-  }
-
-  #work {
-    padding: 80px 25px 40px 25px;
   }
 
   #work h4 {
@@ -140,6 +154,10 @@
     margin: 40px 0 20px 0;
   }
 
+  /* work section ends */
+
+  /* skills section starts */
+
   #skills {
     background-color: #B4C7D9;
     color: #222;
@@ -165,6 +183,10 @@
     text-transform: uppercase;
   }
 
+  /* skills sections ends */
+
+  /* about section starts */
+
   #about {
     padding: 80px 25px;
   }
@@ -179,11 +201,16 @@
 
   #about h4 {
     margin: 0 0 40px;
+    font-weight: 400;
   }
 
   .about-text {
     margin: 0 0 25px;
   }
+
+  /* about section ends */
+
+  /* footer starts */
 
   #contact {
     background-color: #B4C7D9;
@@ -221,3 +248,135 @@
     margin-top: 60px;
   }
 
+  /* footer ends */
+
+  /* tablet styles starts */
+
+  @media only screen and (min-width:768px) {
+  
+    /* General styles */
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    /* header starts */
+
+    header {
+      padding: 60px 90px 80px 90px;
+    }
+
+    header h1 {
+      margin: 80px 0;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    /* header ends */
+
+    /* work section starts */
+
+    #work {
+      padding: 120px 90px 40px 90px;
+    }
+
+    figure {
+      margin: 80px 0 20px 0;
+    }
+
+    .work-link {
+      margin: 40px 0 0 0;
+    }
+
+    /* work section ends */
+
+    /* skills section starts */
+
+    #skills {
+      padding: 40px 90px 120px 90px;
+    }
+
+    #skills h4 {
+      margin: 40px 0 30px 0;
+    }
+
+    .language-wrapper,
+    .tool-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-flow: row wrap;
+    }
+
+    .language,
+    .tool {
+      width: 45%;
+    }
+
+    /* skills section ends */
+
+    /* about section starts */
+
+    #about {
+      padding: 120px 90px;
+    }
+
+    #about figure {
+      margin: 0;
+    }
+
+    #about h3 {
+      margin: 80px 0;
+    }
+
+    #about h4 {
+      margin: 0 0 60px;
+      text-align: left;
+    }
+
+    /* about section ends */
+
+    /* footer section starts */
+
+    #contact {
+      padding: 120px 90px 80px;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 80px 0;
+    }
+
+    .contact-location {
+      margin: 0 0 30px;
+    }
+
+    .contact-social {
+      margin: 0 40px;
+    }
+
+    .social-icons {
+      font-size: 2rem;
+      gap: 0 45px;
+    }
+
+    .copyright {
+      margin: 0;
+    }
+
+    /* footer section ends */
+
+  }
+
+    /* desktop styles starts */
+
+    @media only screen and (min-width:1200px) {
+
+    }
+    
+  
