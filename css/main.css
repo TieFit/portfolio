@@ -185,6 +185,10 @@ img {
   width: 100%;
 }
 
+#work img {
+  object-fit: contain;
+}
+
 address {
   font-style: normal;
 }
